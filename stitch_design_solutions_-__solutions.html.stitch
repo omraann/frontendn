@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<title>DentClinicAI - Solutions</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<style type="text/tailwindcss">
+      :root {
+        --theme-primary: #38e07b;
+        --theme-secondary: #264532;
+        --theme-background: #122118;
+        --theme-text-primary: #ffffff;
+        --theme-text-secondary: #e5e7eb;
+      }
+      body {
+        font-family: 'Spline Sans', 'Noto Sans', sans-serif;
+        background-color: var(--theme-background);
+        color: var(--theme-text-primary);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gradient-to-b from-[#122118] to-[#0A110D]">
+<div class="relative flex size-full min-h-screen flex-col justify-between overflow-x-hidden">
+<header class="sticky top-0 z-10 bg-[var(--theme-background)]/80 backdrop-blur-sm">
+<div class="container mx-auto flex items-center justify-between p-4">
+<div class="w-12"></div>
+<h1 class="text-xl font-bold tracking-tighter text-white">DentClinicAI</h1>
+<div class="flex w-12 items-center justify-end">
+<button class="rounded-full p-2 text-white transition-colors hover:bg-white/10">
+<svg class="h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<line x1="4" x2="20" y1="12" y2="12"></line>
+<line x1="4" x2="20" y1="6" y2="6"></line>
+<line x1="4" x2="20" y1="18" y2="18"></line>
+</svg>
+<span class="sr-only">Menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow px-4 pb-16 pt-8">
+<div class="container mx-auto">
+<h2 class="text-4xl font-extrabold tracking-tighter text-white">Our Solutions</h2>
+<p class="mt-2 text-lg text-[var(--theme-text-secondary)]">AI-powered tools to streamline your clinic's operations.</p>
+<div class="mt-12 space-y-12">
+<div class="rounded-2xl bg-white/5 p-6 backdrop-blur-lg">
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--theme-primary)] text-black">
+<svg class="h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.15 2.85a2.05 2.05 0 0 0-2.88-.01L2.95 18.15a2.05 2.05 0 0 0 .01 2.88L6.8 23.85a2.05 2.05 0 0 0 2.88.01L23.05 8.15a2.05 2.05 0 0 0-.01-2.88z"></path>
+<path d="m15 5 4 4"></path>
+</svg>
+</div>
+<h3 class="text-2xl font-bold text-white">Answer Box</h3>
+</div>
+<p class="mt-4 text-[var(--theme-text-secondary)]">Our AI-powered answer box provides instant, accurate responses to patient inquiries, reducing wait times and improving satisfaction.</p>
+</div>
+<div class="rounded-2xl bg-white/5 p-6 backdrop-blur-lg">
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--theme-primary)] text-black">
+<svg class="h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 12a9 9 0 1 1 9 9 9.75 9.75 0 0 1-6.74-2.74L3 18.25"></path>
+<path d="M8 12h8"></path>
+<path d="M12 8v8"></path>
+</svg>
+</div>
+<h3 class="text-2xl font-bold text-white">Channels Automated</h3>
+</div>
+<p class="mt-4 text-[var(--theme-text-secondary)]">Automate patient communication across all channels, including phone, email, and chat, ensuring timely and consistent responses.</p>
+</div>
+<div class="rounded-2xl bg-white/5 p-6 backdrop-blur-lg">
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--theme-primary)] text-black">
+<svg class="h-6 w-6" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+</svg>
+</div>
+<h3 class="text-2xl font-bold text-white">Safety and Respect</h3>
+</div>
+<p class="mt-4 text-[var(--theme-text-secondary)]">We prioritize patient safety and respect, ensuring all interactions are HIPAA-compliant and adhere to the highest ethical standards.</p>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-gradient-to-t from-black/50 to-transparent">
+<div class="container mx-auto px-4 py-10 text-center">
+<h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Ready to transform your dental practice?</h2>
+<p class="mx-auto mt-4 max-w-2xl text-lg text-[var(--theme-text-secondary)]">Experience the power of AI-driven efficiency and patient care.</p>
+<div class="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
+<button class="flex h-12 items-center justify-center rounded-full bg-[var(--theme-primary)] px-8 text-base font-bold text-[#122118] shadow-lg shadow-[var(--theme-primary)]/20 transition-transform hover:scale-105">
+              Book a Demo
+            </button>
+<button class="flex h-12 items-center justify-center rounded-full bg-[var(--theme-secondary)] px-8 text-base font-bold text-white transition-colors hover:bg-opacity-80">
+              Intake Form
+            </button>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

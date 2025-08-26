@@ -1,0 +1,110 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>DentClinicAI - Contact</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #38e07b;
+        --background-dark: #122118;
+        --background-medium: #1b3124;
+        --background-light: #264532;
+        --text-primary: #ffffff;
+        --text-secondary: #96c5a9;
+        --border-color: #366348;
+      }
+      body {
+        font-family: 'Spline Sans', 'Noto Sans', sans-serif;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--background-dark)] text-[var(--text-primary)]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
+<main class="flex-grow">
+<header class="flex items-center bg-[var(--background-dark)] p-4 pb-2 justify-between sticky top-0 z-10">
+<button class="flex size-10 items-center justify-center rounded-full hover:bg-white/10 transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="text-xl font-bold leading-tight tracking-tight flex-1 text-center pr-10">Contact</h1>
+</header>
+<section class="px-4 pt-6 pb-4">
+<h2 class="text-3xl font-bold leading-tight tracking-tighter mb-4">How can we help?</h2>
+<div class="flex max-w-[480px] flex-wrap items-end gap-4">
+<label class="flex flex-col min-w-40 flex-1">
+<textarea class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-2xl text-[var(--text-primary)] focus:outline-0 focus:ring-2 focus:ring-[var(--primary-color)] border border-[var(--border-color)] bg-[var(--background-medium)] focus:border-[var(--primary-color)] min-h-40 placeholder:text-[var(--text-secondary)] p-4 text-base font-normal leading-relaxed" placeholder="Type your question here..."></textarea>
+</label>
+</div>
+</section>
+<section class="px-4 py-3">
+<div class="flex flex-1 gap-4 max-w-[480px] flex-col items-stretch">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-[var(--primary-color)] text-[var(--background-dark)] text-base font-bold leading-normal tracking-wide w-full hover:bg-opacity-90 transition-colors">
+<span class="truncate">Book a Consultation</span>
+</button>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-[var(--background-light)] text-[var(--text-primary)] text-base font-bold leading-normal tracking-wide w-full hover:bg-opacity-90 transition-colors">
+<span class="truncate">Fill out Intake Form</span>
+</button>
+</div>
+</section>
+<section class="px-4 pt-8 pb-4">
+<h3 class="text-xl font-bold leading-tight tracking-tight mb-3">Contact us directly</h3>
+<div class="divide-y divide-[var(--border-color)] rounded-2xl overflow-hidden border border-[var(--border-color)] bg-[var(--background-medium)]">
+<a class="flex items-center gap-4 px-4 py-4 min-h-14 justify-between hover:bg-[var(--background-light)] transition-colors" href="mailto:support@dentclinicai.com">
+<p class="text-base font-medium leading-normal flex-1 truncate">support@dentclinicai.com</p>
+<div class="shrink-0 text-[var(--text-secondary)]">
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path>
+</svg>
+</div>
+</a>
+<a class="flex items-center gap-4 px-4 py-4 min-h-14 justify-between hover:bg-[var(--background-light)] transition-colors" href="tel:+15551234567">
+<p class="text-base font-medium leading-normal flex-1 truncate">+1 (555) 123-4567</p>
+<div class="shrink-0 text-[var(--text-secondary)]">
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
+<path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path>
+</svg>
+</div>
+</a>
+</div>
+</section>
+<footer class="px-4 pt-4 pb-8">
+<p class="text-[var(--text-secondary)] text-xs font-normal leading-relaxed text-center">
+            By contacting us, you agree to our Privacy Policy and Terms of Service. We handle your data with utmost care and confidentiality.
+          </p>
+</footer>
+</main>
+<nav class="sticky bottom-0 bg-[var(--background-medium)] border-t border-[var(--background-light)]">
+<div class="flex justify-around items-center h-20">
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"></path></svg>
+<span class="text-xs font-medium tracking-wide">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"></path></svg>
+<span class="text-xs font-medium tracking-wide">Services</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--primary-color)]" href="#">
+<div class="relative">
+<div class="absolute -inset-2 bg-[var(--primary-color)]/20 rounded-full"></div>
+<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg"><path d="M231.88,175.08A56.26,56.26,0,0,1,176,224C96.6,224,32,159.4,32,80A56.26,56.26,0,0,1,80.92,24.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,117.39,96c-.18.27-.37.52-.57.77L96,121.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,231.88,175.08Z"></path></svg>
+</div>
+<span class="text-xs font-bold tracking-wide">Contact</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-[var(--text-secondary)]" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path></svg>
+<span class="text-xs font-medium tracking-wide">Profile</span>
+</a>
+</div>
+<div class="h-safe-area-bottom bg-[var(--background-medium)]"></div>
+</nav>
+</div>
+
+</body></html>

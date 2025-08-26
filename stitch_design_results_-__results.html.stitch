@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Spline+Sans%3Awght%40400%3B500%3B700&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<title>DentClinicAI Results</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #38e07b;
+        --background-color: #122118;
+        --text-primary: #ffffff;
+        --text-secondary: #96c5a9;
+        --card-background: #1a2c21;
+        --border-color: #366348;
+        --accent-green: #0bda43;
+      }
+      body {
+        font-family: "Spline Sans", "Noto Sans", sans-serif;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--background-color)] text-[var(--text-primary)]">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
+<div>
+<header class="flex items-center p-4 pb-2 justify-between sticky top-0 bg-[var(--background-color)]/80 backdrop-blur-sm z-10">
+<button class="flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-white/10 transition-colors">
+<span class="material-icons text-white">arrow_back</span>
+</button>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">DentClinicAI</h2>
+<div class="w-10"></div>
+</header>
+<main class="p-4">
+<h1 class="text-white text-3xl font-bold leading-tight tracking-tighter px-0 text-left pb-4 pt-2">Your Results are In!</h1>
+<div class="bg-cover bg-center flex flex-col items-start justify-end rounded-2xl overflow-hidden min-h-[240px] p-6 shadow-lg" style='background-image: linear-gradient(0deg, rgba(18, 33, 24, 0.8) 0%, rgba(18, 33, 24, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDSHXEmkCOGV4V9-Xceps4Nugm_1jSVW9yymURbGTQfjSIcp1an-aCdmC5Nz8GuRJnjNaJHYBpiZSKd8Ia_pVhk4o3yjF62oR3oh_mZLS0lEDJFX_HDzjApyEGFCsYanvURGHa3_wHVWFS5pHMUzbYsg7-CcglHR336apnJY3zVirLYQMAKXM6AU8BdNsLvP-aBDHKVctVNbEOPl5NTccwrRFsF4lVeT-E7ImJNLHAweHz4Oio7bqSj5lv4A0gOab6krpQU0W9_MAJ8");'>
+<div class="max-w-md">
+<h2 class="text-white text-2xl font-bold leading-tight">DentClinicAI has boosted your clinic's performance</h2>
+<p class="text-white/90 text-base font-normal leading-normal mt-2">We've analyzed your clinic's data. Here's a summary of the key improvements we've driven.</p>
+</div>
+</div>
+<section class="mt-8">
+<h3 class="text-white text-xl font-bold leading-tight tracking-[-0.015em] px-0 pb-3">Key Metrics</h3>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col gap-2 rounded-2xl p-4 bg-[var(--card-background)] border border-[var(--border-color)]">
+<p class="text-[var(--text-secondary)] text-sm font-medium leading-normal">Response Time</p>
+<p class="text-white text-4xl font-bold leading-none tracking-tighter">+20%</p>
+<div class="flex items-center gap-1">
+<span class="material-icons text-[var(--accent-green)] text-base">arrow_upward</span>
+<p class="text-[var(--accent-green)] text-sm font-bold">Improvement</p>
+</div>
+</div>
+<div class="flex flex-col gap-2 rounded-2xl p-4 bg-[var(--card-background)] border border-[var(--border-color)]">
+<p class="text-[var(--text-secondary)] text-sm font-medium leading-normal">Booked Consults</p>
+<p class="text-white text-4xl font-bold leading-none tracking-tighter">+15%</p>
+<div class="flex items-center gap-1">
+<span class="material-icons text-[var(--accent-green)] text-base">arrow_upward</span>
+<p class="text-[var(--accent-green)] text-sm font-bold">Increase</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-8">
+<h3 class="text-white text-xl font-bold leading-tight tracking-[-0.015em] px-0 pb-3">Reporting Methods</h3>
+<div class="space-y-4">
+<div class="flex items-center gap-4 bg-[var(--card-background)] p-4 rounded-2xl border border-[var(--border-color)]">
+<div class="text-white flex items-center justify-center rounded-full bg-[var(--border-color)] shrink-0 size-12">
+<span class="material-icons">description</span>
+</div>
+<div class="flex flex-col justify-center">
+<p class="text-white text-base font-bold leading-normal">Detailed Reports</p>
+<p class="text-[var(--text-secondary)] text-sm font-normal leading-normal">In-depth analysis of response times, booked consults, and more.</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-[var(--card-background)] p-4 rounded-2xl border border-[var(--border-color)]">
+<div class="text-white flex items-center justify-center rounded-full bg-[var(--border-color)] shrink-0 size-12">
+<span class="material-icons">notifications_active</span>
+</div>
+<div class="flex flex-col justify-center">
+<p class="text-white text-base font-bold leading-normal">Real-time Alerts</p>
+<p class="text-[var(--text-secondary)] text-sm font-normal leading-normal">Instant notifications for new inquiries, bookings, and cancellations.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-[var(--background-color)]/80 backdrop-blur-sm">
+<div class="px-4 py-3">
+<button class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full h-14 px-5 bg-[var(--primary-color)] text-[var(--background-color)] text-lg font-bold leading-normal tracking-wide hover:opacity-90 transition-opacity">
+<span class="truncate">View Full Report</span>
+</button>
+</div>
+<div class="h-safe-area-bottom"></div>
+</footer>
+</div>
+
+</body></html>
